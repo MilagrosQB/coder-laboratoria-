@@ -1,0 +1,149 @@
+/* MENU NAVEGADOR */
+.navbar-nav {
+    float: right;
+}
+
+.color-rosa {
+	color: #F05F40;
+	font-weight: bold;
+}
+.navbar-default {
+	border: none;
+	background-color: #FFFFFF;
+}
+
+button:hover{
+	background-color: #fff;
+	color: #F05F40;
+}
+
+
+/* Main */
+
+#main{
+	text-align: center;
+	color: #FFFFFF;
+	background: url(../img/header.jpg) no-repeat;
+	background-size: cover;
+}
+
+.principal{
+	margin: auto;
+	padding: 15% 20%;
+}
+
+.saludo{
+	font-size: 44px;
+	font-weight: bold;
+}
+
+.linea-color{
+	width: 45px;
+    border: 3px solid #F05F40;
+    margin: 20px auto;
+}
+
+.info-saludo {
+	opacity: 0.5;
+}
+
+.btn-danger {
+	background-color: #F05F40;
+}
+button{
+	border-radius: 20px;
+	border: none;
+	padding: 10px 25px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/*Sobre mi*/
+
+#sobre-mi {
+	background-color: #F05F40;
+	margin: auto;
+	padding: 3% 0% 3% 0%;	
+	color: white;
+	text-align: center;
+}
+
+.linea-blanca{
+	width: 45px;
+    border: 3px solid #FFFFFF;
+    margin: 20px auto;
+}
+
+.titulo-sobre-mi{
+	font-size: 24px;
+	padding: 3% 0% 0% 0%;
+}
+
+.info-sobre{
+    font-weight: bold;
+    font-size: 15px;
+    padding: 0% 25% 5% 25%;
+}
+
+/*aptitudes*/
+
+#aptitudes {
+	text-align: center;
+	padding: 3% 0% 4% 0%;
+}
+
+.cuadro-iconos{
+	margin: auto;
+	padding: 5% 16%;
+}
+
+.subtitulo{
+	font-size: 20px;
+	line-height: 90%;
+}
+
+.glyphicon {
+	font-size: 45px;
+    padding-bottom: 30px;
+    color: #F05F40;
+}
+
+/*show-photo*/
+
+
+.info{
+	display: none;
+	position: absolute;
+	line-height: 50%;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 2;
+	padding: 25% 0;
+	background-color: rgba(240,95,64, 0.9);
+}
+
+/*github*/
+
+#github {
+	background-color: #14141C;
+	padding: 3% 0;
+	color: white;
+	text-align: center;
+	font-size: 24px;
+}
+
+/*footer*/
+
+footer {
+	text-align: center;
+	font-weight: bold;
+	padding: 5% 20%;
+
+}
+
+footer a {
+	text-decoration: none;
+	color: #F05F40;
+}
